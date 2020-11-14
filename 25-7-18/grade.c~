@@ -1,0 +1,54 @@
+#include<stdio.h>
+void main()
+{
+      int mrks,m;
+      char g;
+      printf("Enter the marks secured : ");
+      scanf("%d",&mrks);
+      m=mrks/10;
+      switch(m)
+      {
+            case 9:
+            {
+                    printf("The grade is O");
+                  break;
+            }
+            case 8:
+            {
+                  printf("The grade is E");
+                  break;
+            }
+            
+            case 7:
+            {
+                  printf("The grade is A");
+                  break;
+            }
+            case 6:
+            {
+                  printf("The grade is B");
+                  break;
+            }
+            case 5:
+            {
+                  printf("The grade is C");
+                  break;
+            }
+            case 4:
+            {
+                  printf("The grade is D");
+                  break;
+            }
+            case 3:
+            {
+                  printf("The grade is F");
+                  break;
+            }
+            default:
+            {
+                  printf("ERROR!!! Wrong Input.\n");
+                  break;
+            }
+           
+      }
+} 
